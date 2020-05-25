@@ -9,7 +9,7 @@ public class BulldogDog extends Dog {
     public BulldogDog (String name, int age) {
         this.name = name;
         this.age = age;
-        this.breed = "Bulldog";
+        this.breed = "Bulldogs";
         description = "I am " + age + " years old " + breed + " dog named " + name + ".";
     }
 
