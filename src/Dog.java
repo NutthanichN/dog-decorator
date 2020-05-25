@@ -4,6 +4,6 @@ public interface Dog {
     public void run();
     public void jump();
     public void stand();
-    public String getDescription();
     public void printBehaviours();
+    public String getDescription();
 }
