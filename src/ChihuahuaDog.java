@@ -11,27 +11,27 @@ public class ChihuahuaDog implements Dog {
 
     @Override
     public void bark() {
-        System.out.println("Bark");
+        System.out.println(breed + " Bark");
     }
 
     @Override
     public void walk() {
-        System.out.println("Walk");
+        System.out.println(breed + " Walk");
     }
 
     @Override
     public void run() {
-        System.out.println("Run");
+        System.out.println(breed + " Run");
     }
 
     @Override
     public void jump() {
-        System.out.println("Jump");
+        System.out.println(breed + " Jump");
     }
 
     @Override
     public void stand() {
-        System.out.println("Stand");
+        System.out.println(breed + " Stand");
     }
 
     @Override
