@@ -12,15 +12,29 @@ public class HappyWalkingDog extends DogDecorator {
     }
 
     @Override
-    public void bark() { decoratedDog.bark(); }
+    public void bark() {
+        decoratedDog.bark();
+    }
+
     @Override
-    public void run() { decoratedDog.run(); }
+    public void run() {
+        decoratedDog.run();
+    }
+
     @Override
-    public void stand() { decoratedDog.stand(); }
+    public void stand() {
+        decoratedDog.stand();
+    }
+
     @Override
-    public void sit() { decoratedDog.sit(); }
+    public void sit() {
+        decoratedDog.sit();
+    }
+
     @Override
-    public void sleep() { decoratedDog.sleep(); }
+    public void sleep() {
+        decoratedDog.sleep();
+    }
 
     @Override
     public String getDescription() {
