@@ -9,8 +9,15 @@ public class Main {
         System.out.println(c.getDescription());
         c.walk();
 
+        c = new ChicStandingDog(c);
         c = new HappyWalkingDog(c);
         System.out.println(c.getDescription());
         c.walk();
+        c.stand();
+
+
+//        c = new ExcitingRunningDog(c);
+//        System.out.println(c.getDescription());
+
     }
 }
