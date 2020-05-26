@@ -8,11 +8,19 @@ public class AngryBarkingDog extends DogDecorator {
     @Override
     public void walk() {
         System.out.print("Angry ");
-        decoratedDog.walk();
+        decoratedDog.bark();
     }
+
+    @Override
+    public void run() { decoratedDog.run(); }
+    @Override
+    public void stand() { decoratedDog.stand(); }
+    @Override
+    public void sit() { decoratedDog.sit(); }
+    @Override
+    public void sleep() { decoratedDog.sleep(); }
 
     @Override
     public String getDescription() {
         return decoratedDog.getDescription() + " Angrily bark";
     }
-}
