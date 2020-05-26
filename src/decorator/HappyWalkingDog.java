@@ -12,6 +12,8 @@ public class HappyWalkingDog extends DogDecorator {
     }
 
     @Override
+    public void bark() { decoratedDog.bark(); }
+    @Override
     public void run() { decoratedDog.run(); }
     @Override
     public void stand() { decoratedDog.stand(); }
