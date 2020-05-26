@@ -6,13 +6,39 @@ public class FastRunningDog extends DogDecorator {
     }
 
     @Override
+    public void run() {
+        System.out.print("Fast ");
+        decoratedDog.run();
+    }
+
+    @Override
+    public void bark() {
+        decoratedDog.bark();
+    }
+
+    @Override
     public void walk() {
-        System.out.print("Exciting ");
         decoratedDog.walk();
     }
 
     @Override
+    public void stand() {
+        decoratedDog.stand();
+    }
+
+    @Override
+    public void sit() {
+        decoratedDog.sit();
+    }
+
+    @Override
+    public void sleep() {
+        decoratedDog.sleep();
+    }
+
+    @Override
     public String getDescription() {
-        return decoratedDog.getDescription() + " Excitedly run";
+        return decoratedDog.getDescription() + " Fast run";
     }
 }
+
