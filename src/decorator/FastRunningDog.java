@@ -1,7 +1,7 @@
 package decorator;
 
-public class ExcitingRunningDog extends DogDecorator {
-    public ExcitingRunningDog(Dog decoratedDog) {
+public class FastRunningDog extends DogDecorator {
+    public FastRunningDog(Dog decoratedDog) {
         super(decoratedDog);
     }
 
