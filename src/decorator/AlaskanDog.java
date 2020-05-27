@@ -8,6 +8,6 @@ public class AlaskanDog extends Dog {
 
     @Override
     public String getDescription() {
-        return "I am " + age + " years old " + breed + " dog named " + name + ".";
+        return "I am " + age + "-year-old " + breed + " dog named " + name + ".";
     }
 }

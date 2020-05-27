@@ -19,12 +19,12 @@ public class Main {
         c.walk();
         c.stand();
 
-        System.out.println(be.getDescription());
-        be.run();
-        System.out.println("---------------------------");
-        be = new FastRunningDog(be);
-        System.out.println(be.getDescription());
-        be.run();
+//        System.out.println(be.getDescription());
+//        be.run();
+//        System.out.println("---------------------------");
+//        be = new FastRunningDog(be);
+//        System.out.println(be.getDescription());
+//        be.run();
 
     }
 }
